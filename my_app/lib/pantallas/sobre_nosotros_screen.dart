@@ -17,10 +17,10 @@ class _SobreNosotrosScreenState extends State<SobreNosotrosScreen> {
   @override
   void initState() {
     super.initState();
-    _startColor = Colors.blueAccent;
-    _endColor = Colors.lightBlueAccent;
+    _startColor = Colors.green;
+    _endColor = Colors.lightGreen;
     _currentColor = _startColor;
-    _timer = Timer.periodic(const Duration(seconds: 4), (timer) {
+    _timer = Timer.periodic(const Duration(seconds: 2), (timer) {
       _animateColor();
     });
   }

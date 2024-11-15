@@ -10,13 +10,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Restaurantes Celiacos',
+      title: 'Celiapp',
       theme: ThemeData(
-        primaryColor: Colors.white,
+        primaryColor: Colors.white70,
         colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.black),
-        scaffoldBackgroundColor: Colors.white, 
+        scaffoldBackgroundColor: Colors.white70, 
         appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.white, 
+          backgroundColor: Colors.white70,
           iconTheme: IconThemeData(
               color: Colors.black), 
         ),

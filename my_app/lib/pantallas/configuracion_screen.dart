@@ -103,7 +103,7 @@ class _ConfiguracionScreenState extends State<ConfiguracionScreen>
                     colors: const [
                       Colors.lightGreen,
                       Colors.green,
-                      Colors.blue,
+                      Colors.teal,
                     ],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,

@@ -44,7 +44,7 @@ class _ContactContent extends StatelessWidget {
         gradient: LinearGradient(
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
-          colors: [Colors.lightBlueAccent, Colors.blueAccent],
+          colors: [Colors.lightGreen, Colors.green],
         ),
       ),
       child: Padding(

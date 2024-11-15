@@ -94,7 +94,7 @@ class _RestaurantesCeliacosScreenState
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Restaurantes Celiacos',
+          'Celiapp',
           style: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.bold,
